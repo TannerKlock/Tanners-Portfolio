@@ -1,0 +1,148 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: 'josefin_slabregular';
+  src: url('josefinslab-regular-webfont.woff2') format('woff2'),
+       url('josefinslab-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'josefin_slabsemibold_italic';
+  src: url('josefinslab-semibolditalic-webfont.woff2') format('woff2'),
+       url('josefinslab-semibolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+/* Text styling */
+html {
+  font-family: 'josefin_slabregular';
+  font-size: 10px;
+}
+
+h1, h2 {
+  font-family: 'josefin_slabsemibold_italic';
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+}
+
+section h2 + p {
+  text-indent: 20px;
+}
+
+/* Links style */
+
+a {
+  outline: none;
+}
+
+a:link, a:visited {
+  color: #a66;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: greenyellow;
+}
+
+a[href="http"] {
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 16px 16px;
+}
+
+/* Lists Styling */
+
+ul, ol {
+  margin: 1.6rem 0;
+  list-style-type: square;
+}
+/* Nav Menu */
+
+nav ul {
+  padding-left: 0;
+  margin-top: 0.8rem;
+}
+
+nav li {
+  margin-bottom: 2rem;
+  list-style-type: none;
+}
+
+nav li a {
+  display: inline-block;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #a66;
+}
+
+nav li a:focus, a:hover {
+  color: orange;
+}
+
+nav li a:active {
+  color: greenyellow;
+  background: black;
+}

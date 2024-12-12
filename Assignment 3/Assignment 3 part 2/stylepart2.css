@@ -1,0 +1,28 @@
+
+html {
+  font-family: sans-serif;
+}
+/* Your CSS below here */
+div {
+  /* Sizing, positioning and shadows of box */
+  width: 200px;
+  line-height: 9;
+  margin: auto;
+  box-shadow: 2px 2px 5px black, inset 2px 2px 3px white, inset -2px -2px 3px black;
+  /* Text */
+  /* Got font size by dividing desired size of 18px by the default size of 16px */
+  font-size: 1.125rem;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 1px black;
+  /* Background */
+  background-color: antiquewhite;
+  background-image: linear-gradient(to top left,
+  rgba(0,0,0,0.2),
+  rgba(0,0,0,0.2) 30%,
+  rgba(0,0,0,0)
+  );
+  /* Border Style */
+  border-radius: 15px;
+  border: 1px solid rgb(220, 235, 215);
+}
